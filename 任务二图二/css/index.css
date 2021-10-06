@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: -apple-system,Helevetica,sans-serif;
+    line-height: 1.5;
+}
+.bgp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 0 auto;
+box-sizing: border-box;
+display: flex;
+width: 1300px;
+height: 750px;
+background-image: url(../image/第二次任务图2/背景.png) ;
+background-size:100% 100%;
+background-repeat: no-repeat;
+}
+.left{
+    background-image: url(..//image/第二次任务图2/logo.png), url(..//image/第二次任务图2/登录条.png);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 50px 50px,150px 40px ;
+    background-position: 50% 15%,50% 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    align-items: center;
+    width: 500px;
+    height: 625px;
+    background-color: white;
+}
+.left h1{
+    color: #5B5B5B;
+     margin-top:130px; 
+}
+.left h4{
+    color: #767676;
+    margin-top:50px;
+}
+.left input{
+    border: #818181 1.5px solid;
+    font-size: small;
+    color: #767676;
+    border-radius: 25px;
+    height: 50px;
+    width: 220px;
+    margin-top:40px;
+
+}
+#he1{
+    color:#FEE2E4;
+    margin-top: 50px;
+}
+#he2{
+    font-size: 2px;
+    color: #EDEDED;
+    margin-top: 15px;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    height: 40px;
+    width: 340px;
+    /* background-color: teal; */
+}
+#he3{
+    color: #898989;
+    height: 25px;
+    width: 130px;
+    border-radius: 15px;
+    /* background-color: tomato; */
+}
+#he4{
+    border:1.5px solid;
+    border-color:  #FEE3B5 #FFD0D0 #FEA8E4 #FFD3D9;
+    color: #FFC39A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    position: relative;
+    right: 10px;
+    /* background-color: red; */
+}
+
+.right{
+    /* justify-content: center;
+    align-items: center; */
+    background-image: url(..//image/第二次任务图2/登录界面.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    flex-direction: column;
+    width: 500px;
+    height: 625px;
+    /* background-color: red; */
+}
+#her{
+    position: relative;
+    left: 65px;
+    top: 60px;
+    /* background-color: red; */
+}
+#he5{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: rgba(255,255,255,0.4);
+    font-size: 140px;
+    
+}
+#he7{
+    font-size: 22px;
+    color: rgba(238,238,237,0.95);
+    position: relative;
+    left: 95px;
+    top: 5px;
+}
+#he8{
+    font-size: 22px;
+    color: rgba(238,238,237,0.95);
+    position: relative;
+    left: 95px;
+    top: 10px;
+}
+#he9{
+    font-size: 10px;
+    color: rgba(238,238,237,0.8);
+    position: relative;
+    left: 95px;
+    top: 30px;
+}

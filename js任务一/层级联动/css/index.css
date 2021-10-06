@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto ;
+    background-color: white;
+}
+.container{
+    border: aqua 3px solid;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 200px;
+    margin: 50px;
+}
+.container select{
+    margin: 10px;
+}
