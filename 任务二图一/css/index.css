@@ -1,0 +1,643 @@
+body{
+        margin: 0 auto;
+        /* display: flex; */
+        font-size: 14px;
+        font-family: -apple-system,Helevetica,sans-serif;
+        line-height: 1.5;
+}
+.bgp{
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    width: 1125px;
+    height: 750px;
+    background-image: url(../image/第二次任务图1/背景.png) ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.main{
+    border-radius:20px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 700px;
+    width: 1100px;
+    margin: 30px;
+    /* background-color: pink; */
+}
+.box1{
+    border-radius:15px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    height:680px;
+    width:150px ;
+    /* margin: 10px; */
+    background-color:white;
+}
+.box1>div{
+    display: flex;
+    border-radius:10px;
+    height: 40px;
+    width: 125px;
+    margin: 10px;
+    background-color:white;
+}
+/* 左边第一个 */
+.box1 div:nth-child(1){
+    background-color: white;
+    height: 80px;
+    background-image: url(../image/第二次任务图1/创可贴.png) ;
+    background-size:50% 80%;
+    background-repeat: no-repeat;
+}
+/* 左侧第二个 */
+.box1 div:nth-child(2){
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.pic2 div:nth-child(1) {
+    height: 30px;
+    width: 30px;
+    background-image: url(../image/第二次任务图1/人员图标.png) ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}    
+.pic2 div:nth-child(2) {
+    height: 21px;
+    width: 70px;
+    font-size: x-small;
+}
+/* 左侧第三个 */
+.box1 div:nth-child(3){
+    background-color: #68C9D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .pic3 div:nth-child(1) {
+    background-color: #68C9D3;
+     height: 30px;
+     width: 30px;
+     background-image: url(../image/第二次任务图1/数据.png) ;
+     background-size:100% 100%;
+     background-repeat: no-repeat;
+ }    
+ .pic3 div:nth-child(2) {
+    height: 21px;
+    width: 70px;
+    font-size: x-small;
+ }
+/* 左侧第四个 */
+.box1 div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .pic4 div:nth-child(1) {
+     height: 30px;
+     width: 30px;
+     background-image: url(../image/第二次任务图1/今日任务.png) ;
+     background-size:100% 100%;
+     background-repeat: no-repeat;
+ }    
+ .pic4 div:nth-child(2) {
+    height: 21px;
+    width: 70px;
+    font-size: x-small;
+ }
+ /* 左侧第五 */
+ .box1 div:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .pic5 div:nth-child(1) {
+     height: 30px;
+     width: 30px;
+     margin-right: 2px;
+     background-image: url(../image/第二次任务图1/时钟.png) ;
+     background-size:100% 100%;
+     background-repeat: no-repeat;
+     margin-right: 2px;
+ }    
+ .pic5 div:nth-child(2) {
+    height: 21px;
+    width: 70px;
+    font-size: x-small;
+    margin-left: 2px;
+ }
+/* 左侧第六 */
+ .box1 div:nth-child(6){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .pic6 div:nth-child(1) {
+     height: 30px;
+     width: 30px;
+     background-image: url(../image/第二次任务图1/齿轮.png) ;
+     background-size:100% 100%;
+     background-repeat: no-repeat;
+ }    
+ .pic6 div:nth-child(2) {
+    height: 21px;
+    width: 70px;
+    font-size: x-small;
+ }
+/* 左边第七个 */
+
+.box1 div:nth-child(7){
+    height: 80px;
+    margin-top: auto;
+    background-image: url(../image/第二次任务图1/电话.png);
+    background-size:50% 80%;
+    background-repeat: no-repeat;
+}
+.box2{
+    display:flex;
+    flex-direction: column;
+   height: 680px;
+   width:675px;
+   background-color:#F6F7FB;
+   
+}
+.shou{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 675px;
+    /* background-color: teal; */
+}
+.shou div:nth-child(1) p{
+    position: relative;
+    color: #CACACA;
+    left: 10%;
+    
+}
+.shou div:nth-child(1){
+    border-radius: 15px;
+    height: 40px;
+    width: 240px;
+    margin-left: 40px;
+    background-position: 95% 50%;
+    background-image:url(../image/第二次任务图1/查找.png) ;
+    background-repeat: no-repeat;
+    background-size: 18px 20px;
+    background-color: white;
+}
+
+.shou div:nth-child(2){
+    border: 1.2px solid #63CDE8;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 40px;
+    width: 150px;
+}
+.shou div:nth-child(2) p{
+    font-weight: bold;
+    color: #63CDE8;
+}
+.yao{
+    display: flex;
+    flex-direction:row;
+   
+    height: 150px;
+    width: 675px;
+    /* background-color: blue; */
+    
+}
+.yao div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    /* background-color:#C0E8F1; */
+    font-size: x-small;
+    color:#C6EAF2;
+    border-radius: 15px;
+    height: 100px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-image: url(../image/第二次任务图1/药.png);
+    background-size: 100% 100%;
+    
+}
+#hi{
+    height: 30px;
+   color: #FFFFFF;
+}
+
+.pic9{
+    /* float: left; */
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../image/第二次任务图1/点赞.png);
+    background-size: 100% 100%;
+    
+}
+.yaol{
+    display: flex;
+    color: #FD867E;
+    flex-direction: column;
+    
+    border-radius: 15px;
+    height: 100px;
+    width: 90px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-image: url(../image/第二次任务图1/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+}
+.yaol h2{
+    margin: 0px;
+   height: 20px;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.yaol h5{
+    margin: 0px;
+    margin-left: 15px;
+    
+    height: 10px;
+    font-weight: normal;
+}
+.yaor{
+    display: flex;
+    color: #69C9D7;
+    flex-direction: column;
+    border-radius: 15px;
+    height: 100px;
+    width: 90px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-image: url(../image/第二次任务图1/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+}
+.yaor h2{
+    margin: 0px;
+   height: 20px;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.yaor h5{
+    margin: 0px;
+    margin-left: 15px;
+    
+    height: 10px;
+    font-weight: normal;
+}
+h3 {
+   margin-left: 30px;
+    
+}
+.san{
+    color: #FEF0EF;
+}
+.san div:nth-child(1){
+    
+    border-radius: 15px;
+    float: left;
+    height: 50px;
+    width: 180px;
+    background-color: #FB8885;
+    margin-left: 30px;
+    background-image: url(../image/第二次任务图1/心率.png);
+    background-size: 30px 30px;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+    
+}
+.san div:nth-child(1) h5{
+   
+    margin: 0px;
+    margin-left: 25%;
+   margin-top: 5px;
+    height: 20px;
+}
+.san div:nth-child(1) h6{
+   
+    margin: 0px;
+    margin-left: 25%;
+    height: 20px;
+}
+
+.san div:nth-child(2){
+    border-radius: 15px;
+    float: left;
+    height: 50px;
+    width: 180px;
+    background-color: #FFB55C;
+    margin-left: 30px;
+    background-image: url(../image/第二次任务图1/人员.png);
+    background-size: 30px 30px;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+}
+.san div:nth-child(2) h5{
+    margin: 0px;
+    margin-left: 25%;
+   margin-top: 5px;
+    height: 20px;
+}
+.san div:nth-child(2) h6{
+   
+    margin: 0px;
+    margin-left: 25%;
+    height: 20px;
+}
+
+.san div:nth-child(3){
+    border-radius: 15px;
+    float: left;
+    height: 50px;
+    width: 180px;
+    background-color: #69C9D7;
+    margin-left: 30px;
+    background-image: url(../image/第二次任务图1/任务清单.png);
+    background-size: 30px 30px;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+}
+.san div:nth-child(3) h5{
+    margin: 0px;
+    margin-left: 25%;
+   margin-top: 5px;
+    height: 20px;
+}
+.san div:nth-child(3) h6{
+   
+    margin: 0px;
+    margin-left: 25%;
+    height: 20px;
+}
+
+.biaol{
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 30px;
+    float: left;
+    height: 250px;
+    width: 400px;
+    background-color: #69C9D7;
+}
+
+#biaoltop{
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: 0px;
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    background-image: url(../image/第二次任务图1/线条.png),url(../image/第二次任务图1/条形图.png);
+    background-size:25px 25px,30px 30px;
+    background-repeat: no-repeat;
+    background-position: 95%,82% ;
+}
+.biaol h3{
+    
+    margin: 0px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+#biaolcon{
+    border-radius: 0px 0px 15px 15px ;
+    position: relative;
+    background-color: white;
+    bottom: 0px;
+    height: 200px;
+    width: 400px;
+    background-image: url(../image/第二次任务图1/2.png);
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-position: 70% ;
+}
+.biaor{
+    border-radius: 15px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    background-image: url(../image/第二次任务图1/1.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+.biaor h3{
+    margin: 0px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.biaor ul{
+    font-weight: bold;
+    margin: 0px;
+    position: relative;
+    top: 105px;
+    text-indent: 10px;
+}
+ul li{
+    padding-top: -40px;
+    padding-bottom: -10px;
+    
+}
+#li1{
+    color: #69C9D7;
+}
+#li2{
+    color: #FD867E;
+}
+#li3{
+    color: #FFB55C;
+}
+ul li span{
+    color: black;
+}
+ul li::marker{
+    font-size: 28px;
+}
+
+   
+.box3{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius:0px 15px 15px 0px;
+    height:680px;
+    width:240px ;
+    /* margin: 10px; */
+    background-color:white;
+    
+}
+.tou div:nth-child(2){
+   display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 225px;
+    width: 240px;
+}
+#pic8 {
+    height: 120px;
+    width: 120px;
+    background-image: url(../image/第二次任务图1/头像.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.tou div{
+    margin: 10px;
+}
+.tou div:nth-child(3){
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  margin: 10px;
+}
+.tou div:nth-child(4){
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #D1D1D1;
+}
+.tou div:nth-child(5){
+    height: 21px;
+    width: 240px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.tou div:nth-child(5) div:nth-child(1){
+    font-weight: bold;
+}
+.tou div:nth-child(5) div:nth-child(2){
+    color: #58C9E6;
+    font-weight: bold;
+}
+.next1{
+    font-family: 'Microsoft Yahei';
+    box-shadow: 1px 1px 15px rgba(34, 25, 25, 0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 190px;
+    /* background-color: red; */
+    margin: 20px;
+}
+.next1l{
+    height: 80px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.next1r {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+     /* background-color: seagreen; */
+}
+.next1l  div:nth-child(1){
+
+    height: 40px;
+    width: 40px;
+    background-image: url(../image/第二次任务图1/相机.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.next1r  div:nth-child(1){
+    font-family: 'Microsoft Yahei';
+    font-weight: 600;
+    color: #373737;
+    margin-top: 10px;
+    height: 20px;
+    width: 130px;
+}
+.next1r  div:nth-child(2){
+    font-family: 'Microsoft Yahei';
+    font-weight: 600;
+    color: #373737;
+    height: 20px;
+    width: 130px;
+}
+.next1r  div:nth-child(3){
+    color: #D1D1D1;
+    height: 20px;
+    width: 130px;
+    margin-bottom: 5px;
+}
+.next2{
+    
+    border-radius:0px 0px 15px 0px;
+    width: 240px;
+    height: 176px;
+    /* background-color:royalblue; */
+}
+.next2 div:nth-child(1){
+    /* font-size: large; */
+    font-weight: bold;
+    margin: 25px;
+    height: 21px;
+    width: 150px;
+}
+.next2 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 15px;
+    display: flex;
+    font-size: small;
+    color: #D3EFF2;
+   background-color: #69C9D7;
+    height: 60px;
+    width: 200px;
+    font-weight: normal;
+}
+.next2 div:nth-child(2) div:nth-child(1){
+    font-size: x-small;
+    font-weight: normal;
+   margin: 0 auto;
+   margin-bottom: 5px;
+    height: 10px;
+    width: 150px;
+}
+.next2 div:nth-child(2) div:nth-child(2){
+    font-weight: normal;
+    font-size: x-small;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 10px;
+    width: 150px;
+}
